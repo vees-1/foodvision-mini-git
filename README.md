@@ -6,7 +6,7 @@ The project demonstrates the **full machine learning workflow** — from modular
 
 ---
 
-## 🔹 Live Demo
+## 📌 Live Demo
 
 👉 **Try the model live on Hugging Face Spaces:**  
 https://huggingface.co/spaces/veees/FoodVision-mini
