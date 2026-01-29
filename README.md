@@ -6,7 +6,7 @@ The project demonstrates the **full machine learning workflow** — from modular
 
 ---
 
-## 🚀 Live Demo
+## 🔹 Live Demo
 
 👉 **Try the model live on Hugging Face Spaces:**  
 https://huggingface.co/spaces/veees/FoodVision-mini
@@ -25,12 +25,12 @@ Upload an image or select an example to see real-time predictions.
 
 ## 🧠 Project Highlights
 
+- Achieved **96.25% test accuracy** on the FoodVision Mini dataset  
 - Trained an **EfficientNet-B2 feature extractor** using transfer learning  
-- Built a **modular PyTorch training pipeline** (clean separation of concerns)  
+- Built a **modular PyTorch training pipeline** with clean separation of concerns  
 - Followed **ML engineering best practices** for reproducibility and structure  
-- Deployed an interactive **Gradio web app** on Hugging Face Spaces  
-- Separated **training code (GitHub)** from **deployment code (Hugging Face)**  
-- Achieved **96.25% test accuracy** on the FoodVision Mini dataset
+- Deployed an interactive **Gradio web application** on Hugging Face Spaces  
+- Clearly separated **training code (GitHub)** from **deployment code (Hugging Face)**  
 ---
 
 ## 🗂️ Repository Structure
