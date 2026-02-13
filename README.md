@@ -1,4 +1,4 @@
-# 🍕 FoodVision Mini — PyTorch Computer Vision Project
+# 🍕 FoodVision Mini
 
 FoodVision Mini is an **end-to-end computer vision project** built with **PyTorch**, where an EfficientNet-B2 feature extractor is trained to classify food images into **pizza, steak, or sushi**.
 
