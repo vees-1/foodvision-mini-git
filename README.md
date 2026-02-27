@@ -111,7 +111,7 @@ Run experiments using the notebook:
 notebooks/FoodVision_Mini.ipynb
 ```
 
-## 🌐 Deployment
+## Deployment
 
 The trained model is deployed using:
 
@@ -136,14 +136,14 @@ https://huggingface.co/spaces/veees/FoodVision-mini
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.  
 See the [`LICENSE`](LICENSE) file for details.
 
 ---
 
-## 🙌 Acknowledgements
+## Acknowledgements
 
 - PyTorch & TorchVision  
 - Gradio  
