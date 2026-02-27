@@ -1,43 +1,43 @@
 # 🍕 FoodVision Mini
 
-FoodVision Mini is an **end-to-end computer vision project** built with **PyTorch**, where an EfficientNet-B2 feature extractor is trained to classify food images into **pizza, steak, or sushi**.
+FoodVision Mini is an end-to-end computer vision project built with PyTorch, where an EfficientNet-B2 feature extractor is trained to classify food images into pizza, steak, or sushi.
 
-The project demonstrates the **full machine learning workflow** — from modular training code and experimentation to deployment as a live web application.
+The project demonstrates the full machine learning workflow — from modular training code and experimentation to deployment as a live web application.
 
 ---
 
-## 📌 Live Demo
+## Live Demo
 
-👉 **Try the model live on Hugging Face Spaces:**  
+👉 Try the model live on Hugging Face Spaces:
 https://huggingface.co/spaces/veees/FoodVision-mini
 
 Upload an image or select an example to see real-time predictions.
 
 ---
 
-## 📈 Model Performance
+## Model Performance
 
-- **Test Accuracy:** **96.25%**
-- **Dataset:** FoodVision Mini (pizza, steak, sushi)
-- **Approach:** EfficientNet-B2 feature extractor with frozen backbone
+- Test Accuracy: 96.25%
+- Dataset: FoodVision Mini (pizza, steak, sushi)
+- Approach: EfficientNet-B2 feature extractor with frozen backbone
   
 ---
 
-## 🧠 Project Highlights
+## Project Highlights
 
-- Achieved **96.25% test accuracy** on the FoodVision Mini dataset  
-- Trained an **EfficientNet-B2 feature extractor** using transfer learning  
-- Built a **modular PyTorch training pipeline** with clean separation of concerns  
-- Followed **ML engineering best practices** for reproducibility and structure  
-- Deployed an interactive **Gradio web application** on Hugging Face Spaces  
-- Clearly separated **training code (GitHub)** from **deployment code (Hugging Face)**  
+- Achieved 96.25% test accuracy on the FoodVision Mini dataset  
+- Trained an EfficientNet-B2 feature extractor using transfer learning  
+- Built a modular PyTorch training pipeline with clean separation of concerns  
+- Followed ML engineering best practices for reproducibility and structure  
+- Deployed an interactive Gradio web application on Hugging Face Spaces  
+- Clearly separated training code (GitHub) from deployment code (Hugging Face)
 ---
 
-## 🗂️ Repository Structure
+## Repository Structure
 ```python
 FoodVision-Mini/
 │
-├── going_modular/            # Modular PyTorch training code
+├── src/            # Modular PyTorch training code
 │   ├── data_setup.py
 │   ├── engine.py
 │   ├── helper_functions.py
@@ -53,14 +53,14 @@ FoodVision-Mini/
 └── README.md
 ```
 
-📌 **Note:**  
-Deployment-specific files (`app.py`, model weights, Gradio UI) live in a **separate Hugging Face Space repository**, not in this GitHub repo.
+**Note:**  
+Deployment-specific files (`app.py`, model weights, Gradio UI) live in a separate Hugging Face Space repository, not in this GitHub repo.
 
 ---
 
-## 📊 Dataset
+## Dataset
 
-The model is trained on a **mini version of the FoodVision dataset**, containing images from three food categories:
+The model is trained on a mini version of the FoodVision dataset, containing images from three food categories:
 
 -  Pizza  
 -  Steak  
@@ -70,21 +70,21 @@ The dataset is split into training and test sets and loaded using `torchvision.d
 
 ---
 
-## 🏗️ Model Architecture
+## Model Architecture
 
-- **Base model:** EfficientNet-B2 (pretrained on ImageNet)  
-- **Approach:** Transfer learning (feature extractor)  
-- **Classifier:** Custom fully connected classification head  
-- **Loss function:** Cross-Entropy Loss  
-- **Optimizer:** Adam  
+- Base model: EfficientNet-B2 (pretrained on ImageNet)  
+- Approach: Transfer learning (feature extractor)  
+- Classifier: Custom fully connected classification head  
+- Loss function: Cross-Entropy Loss  
+- Optimizer: Adam  
 
 Only the classifier head is trained while the pretrained backbone remains frozen.
 
 ---
 
-## ⚙️ Training & Experiments
+## Training & Experiments
 
-All training logic is implemented using a **modular design**:
+All training logic is implemented using a modular design:
 
 - `data_setup.py` → dataset loading & transforms  
 - `engine.py` → training and evaluation loops  
@@ -98,7 +98,7 @@ This structure makes the code:
 
 ---
 
-## 🧪 Reproducibility
+## Reproducibility
 
 To install training dependencies:
 
@@ -115,16 +115,16 @@ notebooks/FoodVision_Mini.ipynb
 
 The trained model is deployed using:
 
-- **Gradio** for the web interface  
-- **Hugging Face Spaces** for hosting  
-- **Git LFS** for managing large model files  
+- Gradio for the web interface  
+- Hugging Face Spaces for hosting  
+- Git LFS for managing large model files  
 
-👉 **Deployment repository:**  
+👉 Deployment repository:
 https://huggingface.co/spaces/veees/FoodVision-mini
 
 ---
 
-## 📌 Skills Demonstrated
+## Skills Demonstrated
 
 - PyTorch & TorchVision  
 - Transfer learning  
@@ -136,19 +136,9 @@ https://huggingface.co/spaces/veees/FoodVision-mini
 
 ---
 
-## 🛣️ Future Improvements
-
-- Add confidence calibration and thresholding  
-- Support more food classes  
-- Improve UI with probability bars  
-- Compare multiple architectures (EfficientNet vs ResNet)  
-- Export model to TorchScript or ONNX for faster inference  
-
----
-
 ## 📄 License
 
-This project is licensed under the **MIT License**.  
+This project is licensed under the MIT License.  
 See the [`LICENSE`](LICENSE) file for details.
 
 ---
