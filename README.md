@@ -5,11 +5,8 @@
 [![Accuracy](https://img.shields.io/badge/Test%20Accuracy-96.25%25-brightgreen.svg)]()
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
-An end-to-end computer vision project built with PyTorch.
-
 👉 [Try it on Hugging Face Spaces](https://huggingface.co/spaces/veees/FoodVision-mini)
 
-Upload any food image or pick an example to get real-time predictions.
 
 ---
 
